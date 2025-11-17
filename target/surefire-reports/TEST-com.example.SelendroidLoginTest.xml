@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.SelendroidLoginTest" time="2.428" tests="3" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\jesti\appium-demo\target\test-classes;C:\Users\jesti\appium-demo\target\classes;C:\Users\jesti\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\jesti\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\jesti\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\jesti\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jesti\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\jesti\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\jesti\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\jesti\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\jesti\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\jesti\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\jesti\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\jesti\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\jesti\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\jesti\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\jesti\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\jesti\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\jesti\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\jesti\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\jesti\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\jesti\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\jesti\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\jesti\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\jesti\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\jesti\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\jesti\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\jesti\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\jesti\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\jesti\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\jesti\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\jesti\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\jesti\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\jesti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\jesti\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\jesti\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\jesti\AppData\Local\Temp\surefire6811257681835694610\surefirebooter-20251116233339681_3.jar C:\Users\jesti\AppData\Local\Temp\surefire6811257681835694610 2025-11-16T23-33-39_523-jvmRun1 surefire-20251116233339681_1tmp surefire_0-20251116233339681_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="SelendroidLoginTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\jesti\appium-demo\target\test-classes;C:\Users\jesti\appium-demo\target\classes;C:\Users\jesti\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\jesti\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\jesti\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\jesti\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jesti\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\jesti\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\jesti\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\jesti\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\jesti\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\jesti\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\jesti\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\jesti\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\jesti\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\jesti\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\jesti\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\jesti\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\jesti\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\jesti\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\jesti\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\jesti\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\jesti\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\jesti\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\jesti\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\jesti\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\jesti\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\jesti\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\jesti\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\jesti\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\jesti\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\jesti\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\jesti\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\jesti\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\jesti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\jesti\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\jesti\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jesti"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\jesti\appium-demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\jesti\AppData\Local\Temp\surefire6811257681835694610\surefirebooter-20251116233339681_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.17+10"/>
+    <property name="user.name" value="jesti"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.17+10"/>
+    <property name="localRepository" value="C:\Users\jesti\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\jesti\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.17"/>
+    <property name="user.dir" value="C:\Users\jesti\appium-demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin;C:\Python313\Scripts\;C:\Python313\;c:\Users\jesti\AppData\Local\Programs\cursor\resources\app\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\jesti\AppData\Local\Microsoft\WindowsApps;c:\Users\jesti\AppData\Local\Programs\cursor\resources\app\bin;c:\Users\jesti\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\xampp\php;C:\ProgramData\chocolatey\bin;C:\Program Files\Graphviz\bin;C:\Users\jesti\AppData\Local\nvm;C:\nvm4w\nodejs;C:\apache-maven-3.9.9\bin;C:\Users\jesti\AppData\Roaming\Python\Python313\Scripts;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\jesti\AppData\Local\Android\Sdk\platform-tools;C:\Users\jesti\AppData\Local\Android\Sdk\platform-tools;C:\Users\jesti\develop\flutter\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin;C:\Python313\Scripts\;C:\Python313\;c:\Users\jesti\AppData\Local\Programs\cursor\resources\app\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\jesti\AppData\Local\Microsoft\WindowsApps;c:\Users\jesti\AppData\Local\Programs\cursor\resources\app\bin;c:\Users\jesti\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\xampp\php;C:\ProgramData\chocolatey\bin;C:\Program Files\Graphviz\bin;C:\Users\jesti\AppData\Local\nvm;C:\nvm4w\nodejs;C:\apache-maven-3.9.9\bin;C:\Users\jesti\AppData\Roaming\Python\Python313\Scripts;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\U;D:\Microsoft VS Code\bin;C:\Users\jesti\AppData\Local\Programs\cursor\resources\app\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.17+10"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="setup" classname="com.example.SelendroidLoginTest" time="2.294">
+    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;C:\\Users\\jesti\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\AppiumDemo\\selendroid-test-app.apk&apos; exited with code 1&apos;; Command output: adb.exe: failed to install C:\AppiumDemo\selendroid-test-app.apk: Failure [INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 24, but found 10]&#10;&#10;&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;JESTIN&apos;, ip: &apos;192.168.61.148&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;C:\\Users\\jesti\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\AppiumDemo\\selendroid-test-app.apk&apos; exited with code 1&apos;; Command output: adb.exe: failed to install C:\AppiumDemo\selendroid-test-app.apk: Failure [INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 24, but found 10]&#10;&#10;&#10;    at getResponseForW3CError (C:\Users\jesti\AppData\Local\nvm\v20.19.5\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Users\jesti\AppData\Local\nvm\v20.19.5\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;JESTIN&apos;, ip: &apos;192.168.61.148&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\jesti\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\AppiumDemo\\selendroid-test-app.apk' exited with code 1'; Command output: adb.exe: failed to install C:\AppiumDemo\selendroid-test-app.apk: Failure [INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 24, but found 10]
+
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JESTIN', ip: '192.168.61.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.17'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\jesti\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\AppiumDemo\\selendroid-test-app.apk' exited with code 1'; Command output: adb.exe: failed to install C:\AppiumDemo\selendroid-test-app.apk: Failure [INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 24, but found 10]
+
+
+    at getResponseForW3CError (C:\Users\jesti\AppData\Local\nvm\v20.19.5\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\jesti\AppData\Local\nvm\v20.19.5\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JESTIN', ip: '192.168.61.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.17'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94)
+	at com.example.SelendroidLoginTest.setup(SelendroidLoginTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	... 45 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\jesti\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\AppiumDemo\\selendroid-test-app.apk' exited with code 1'; Command output: adb.exe: failed to install C:\AppiumDemo\selendroid-test-app.apk: Failure [INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 24, but found 10]
+
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JESTIN', ip: '192.168.61.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.17'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\jesti\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\AppiumDemo\\selendroid-test-app.apk' exited with code 1'; Command output: adb.exe: failed to install C:\AppiumDemo\selendroid-test-app.apk: Failure [INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 24, but found 10]
+
+
+    at getResponseForW3CError (C:\Users\jesti\AppData\Local\nvm\v20.19.5\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\jesti\AppData\Local\nvm\v20.19.5\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 50 more
+]]></failure>
+    <system-out><![CDATA[ðŸš€ Starting Appium session for Selendroid login demo...
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.example.SelendroidLoginTest" time="0.0">
+    <skipped message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;C:\\Users\\jesti\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\AppiumDemo\\selendroid-test-app.apk&apos; exited with code 1&apos;; Command output: adb.exe: failed to install C:\AppiumDemo\selendroid-test-app.apk: Failure [INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 24, but found 10]&#10;&#10;&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;JESTIN&apos;, ip: &apos;192.168.61.148&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;C:\\Users\\jesti\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 install C:\\AppiumDemo\\selendroid-test-app.apk&apos; exited with code 1&apos;; Command output: adb.exe: failed to install C:\AppiumDemo\selendroid-test-app.apk: Failure [INSTALL_FAILED_DEPRECATED_SDK_VERSION: App package must target at least SDK version 24, but found 10]&#10;&#10;&#10;    at getResponseForW3CError (C:\Users\jesti\AppData\Local\nvm\v20.19.5\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Users\jesti\AppData\Local\nvm\v20.19.5\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;JESTIN&apos;, ip: &apos;192.168.61.148&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;&#10;Driver info: driver.version: AndroidDriver"/>
+  </testcase>
+  <testcase name="teardown" classname="com.example.SelendroidLoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+</testsuite>
